@@ -23,3 +23,40 @@ a {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+a::selection,
+b::selection,
+strong::selection,
+p::selection,
+img::selection,
+button::selection,
+span::selection,
+div::selection {
+  background: #fff;
+  color: #000;
+  -webkit-text-fill-color: #000;
+}
+
+/* Firefox */
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+h4::-moz-selection,
+h5::-moz-selection,
+a::-moz-selection,
+b::-moz-selection,
+strong::-moz-selection,
+p::-moz-selection,
+img::-moz-selection,
+button::-moz-selection,
+span::-moz-selection,
+div::-moz-selection {
+  background: #fff;
+  color: #000;
+  -webkit-text-fill-color: #000;
+}
